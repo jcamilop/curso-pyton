@@ -11,3 +11,6 @@ print(par(4))
 
 inpar = lambda n: n % 2 != 0
 print(inpar(5))
+
+revertir = lambda cadena: cadena[::-1]
+print(revertir('hola'))

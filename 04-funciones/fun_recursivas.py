@@ -1,4 +1,4 @@
-
+#las funciones recursivas se ejecutan asi mismas
 
 def factorial(n):
     print('valor inicial:', n)

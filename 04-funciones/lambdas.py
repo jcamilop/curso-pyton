@@ -1,4 +1,4 @@
-
+#se usa en expresiones cortas
 
 sumar = lambda a,b: a+b
 print(sumar(10, 20))

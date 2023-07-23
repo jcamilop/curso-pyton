@@ -1,8 +1,9 @@
 from objet import Persona
 
-persona1 = Persona()
-persona1.nombre ='camilo'
-persona1.edad =23
-persona1.ciudad ='medellin'
-
+persona1 = Persona('camilo', 23, 'medellin')
 persona1.dates()
+
+print('='*25)
+
+persona2 = Persona('juan', 25, 'cali')
+persona2.dates()

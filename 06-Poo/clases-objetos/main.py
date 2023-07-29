@@ -1,9 +1,9 @@
-from objet import Persona
+from persona import Persona
 
-persona1 = Persona('camilo', 23, 'medellin')
-persona1.dates()
+persona1 = Persona('Alex', 25)
+persona1.mostra_datos()
 
-print('='*25)
+persona1.nombre = 'Roel'
+persona1.mostra_datos()
 
-persona2 = Persona('juan', 25, 'cali')
-persona2.dates()
+print(persona1)
